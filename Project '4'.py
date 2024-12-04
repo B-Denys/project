@@ -5,7 +5,7 @@ def sort_list(input_list):
     numbers = sorted([x for x in input_list if isinstance(x, (int, float))])
     strings = sorted([x for x in input_list if isinstance(x, str)])
     return numbers + strings
-unique_list = remove_duplicates(Main_list)
-sorted_list = sort_list(unique_list)
-print("Список без повторень:", unique_list)
-print("Відсортований список:", sorted_list)
+Unique_list = remove_duplicates(Main_list)
+Sorted_list = sort_list(Unique_list)
+print("Список без повторень:", Unique_list)
+print("Відсортований список:", Sorted_list)
