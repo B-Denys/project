@@ -1,4 +1,4 @@
-original_list = [3, 1, 2, 3, 4, 5, 6, 3, 4, 5, 7, 6, 5, 4, 3, 4, 5, 4, 3, 'Hello World', 'Денис']
+original_list = [3, 1, 2, 3, 4, 5, 6, 3, 4, 5, 7, 6, 5, 4, 3, 4, 5, 4, 3, 'Привіт', 'анаконда']
 def remove_duplicates(input_list):
     return list(set(input_list))
 def sort_list(input_list):
